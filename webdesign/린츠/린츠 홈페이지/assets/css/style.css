@@ -266,6 +266,7 @@ body.dark-theme {
         height: 100%;
         padding: 6rem 2rem 3.5rem;
         transition: .3s;
+        box-shadow: -2px 0 4px hsla(0, 0%, 15%, .1);
     }
 }
 
@@ -298,6 +299,7 @@ body.dark-theme {
 /* show menu */
 .show-menu {
     right: 0;
+    width: 350px;
 }
 
 /* scroll */
@@ -540,8 +542,8 @@ body.dark-theme {
 
 .story__img {
     position: absolute;
-    left: -3rem;
-    top: -3rem;
+    left: -1rem;
+    top: -1rem;
 }
 
 
@@ -1040,7 +1042,7 @@ body.dark-theme {
 /*=============== breakpoint ===============*/
 /*=============== breakpoint ===============*/
 
-@media (max-width:320px) {
+@media (min-width:320px) {
     .container {
         margin-left: var(--mb-1);
         margin-right: var(--mb-1);
@@ -1082,7 +1084,10 @@ body.dark-theme {
 
     .story__images{
         margin-right: 0;
-        margin-left: 3rem;
+        margin-left: 2rem;
+    }
+    .story__data {
+        text-align: center;
     }
     
     .button2{
@@ -1094,15 +1099,15 @@ body.dark-theme {
     }
     .testimonial__img,
     .testimonial__square {
-        right: 4.5rem;
-        top: 5rem;
+        right: 4rem;
+        top: 7rem;
     }
     .testimonial__square {
         position: static;
     }
-    .testimonial__description{
+    /* .testimonial__description{
         font-size: var(--small-font-size);
-    }
+    } */
     .testimonial__date {
         font-size: 1.5rem;
     }
@@ -1112,15 +1117,20 @@ body.dark-theme {
 }
 
     .products__container {
-        grid-template-columns: repeat(1, 200px);
+        grid-template-columns: repeat(2, 200px);
         justify-content: center;
         overflow: hidden;
     }
     .products__square {
-        height: 9rem !important;
+        height: 12rem !important;
     }
     .products__img {
-        height: 9rem !important;
+        height: 12rem !important;
+    }
+    .products__square p{
+        text-align: center;
+        color: #fff;
+        margin: 5rem 0;
     }
     .products__button {
         margin: 3.7rem 0.6rem !important;
@@ -1152,7 +1162,9 @@ body.dark-theme {
         align-items: flex-start;
         gap: 1.5rem;
     }
-
+    .story__container{
+        grid-template-columns: repeat(2,1fr);
+    }
     .story__images {
         margin-right: 3rem;
     }
@@ -1160,7 +1172,17 @@ body.dark-theme {
     .footer__container {
         grid-template-columns: repeat(2, 1fr);
     }
+    .testimonial__img,
+    .testimonial__square {
+        right: 6rem;
+        top: 4rem;
+    }
 
+    .products__container {
+        grid-template-columns: repeat(3, 200px);
+        justify-content: center;
+        overflow: hidden;
+    }
     .products__square,
     .products__img {
         height: 15rem;

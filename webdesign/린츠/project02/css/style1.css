@@ -39,6 +39,7 @@ section{
 
 .concept img{
     width: 100%;
+    padding: 0 3rem;
   }
 
 /* section design */
@@ -278,8 +279,8 @@ footer{
         margin-left: 0;
      }
      .btn{
-        width: 4rem;
+        width: 5rem;
         height: 2rem;
-        font-size: 1rem;
+        font-size: .9rem;
      }
      }
