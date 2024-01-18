@@ -20201,7 +20201,7 @@ ul {
 -----------------------------------------------*/
 .navbar-fotogency {
   font-weight: 400;
-  font-size: 1.1rem;
+  font-size: 1.5rem;
   letter-spacing: .1em; /* 수정함 */
   -webkit-transition: all 0.2s ease-in-out;
   -o-transition: all 0.2s ease-in-out;
@@ -22381,13 +22381,13 @@ video{
 /* 스크롤 인디케이터 위치 */
 @media (max-width : 960px){
   .scroll-indicator {
-    padding-top: 380px;
-    padding-right: 350px;
+    /* padding-top: 380px;
+    padding-right: 350px; */
   }
 }
 @media (max-width : 719.9px){
   .scroll-indicator {
-    padding-top: 100px;
+    padding-top: 0px !important;
     padding-right: 100px;
   }
 }
@@ -22409,6 +22409,11 @@ video{
 @media (max-width : 719.9px){
   .formcustom{
     font-size: 17px;
+  }
+}
+@media (max-width : 400px){
+  .formcustom{
+    font-size: 15px;
   }
 }
 
@@ -22460,5 +22465,40 @@ video{
 .text-warning2 {
   --fg-text-opacity: 1;
   color: #E9B1A6 !important;
+}
+
+
+/* mainp3 */
+
+@media (max-width : 1439px){
+  .mainp3{
+    margin-right: 6rem !important;
+    z-index: -100 !important;
+  }
+}
+@media (max-width : 959.9px){
+  .mainp3{
+    margin-top: -13rem !important; 
+    margin-right: 2rem !important;
+    z-index: -100 !important;
+  }
+}
+@media (max-width : 719.9px){
+  .mainp3{
+    margin-top: -8rem !important; 
+    margin-right: 0;
+  }
+}
+@media (max-width : 570px){
+  .mainp3{
+    margin-top: -15rem !important; 
+    margin-right: -.2rem !important;
+  }
+}
+@media (max-width : 400px){
+  .mainp3{
+    margin-top: -13rem !important; 
+    margin-right: 1rem !important;
+  }
 }
 
