@@ -39,7 +39,7 @@ section{
 
 .concept img{
     width: 100%;
-    padding: 0 1rem;
+    padding: 0 .5rem;
   }
 
 /* section design */
@@ -167,8 +167,20 @@ footer{
     color: #fff;
 }
 
-
-
+@media (max-width:960px){
+.design .mobile{
+   width: 350px;
+   height: 450px;
+   /* margin-left: 0; */
+}
+.design .mobile2{
+   
+   width: 270px;
+   height: 450px;
+}
+.design .responsible{
+}
+}
 
 /* 화면너비 0 ~ 768px */
 @media (max-width:768px){
