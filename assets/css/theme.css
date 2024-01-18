@@ -22471,36 +22471,57 @@ video{
 /* mainp3 */
 @media (max-width : 1439px){
   .mainp3{
-    margin-right: 6rem !important;
-    z-index: -100 !important;
+    margin-right: 5rem !important;
   }
 }
 @media (max-width : 959.9px){
+  /* .mainp3{
+    margin-top: -14rem !important; 
+    margin-right: 2.5rem !important;
+    z-index: -100 !important;
+  } */
   .mainp3{
-    margin-top: -13rem !important; 
-    margin-right: 2rem !important;
+    margin-top: -19rem !important; 
+    margin-right: -1.5rem !important;
+    width: 20% !important;
     z-index: -100 !important;
   }
 }
-@media (max-width : 719.9px){
+@media (max-width : 850px){
   .mainp3{
-    margin-top: -12rem !important; 
-    margin-right: 0;
+    margin-top: -12.5rem !important; 
+  }
+}
+@media (max-width : 719.9px){
+  /* .mainp3{
+    margin-top: -14rem !important; 
+    margin-right: -3rem !important;
+  } */
+
+  .mainp3{
+    margin-top: -11rem !important; 
+    margin-right: -4rem !important;
+    width: 27% !important;
+
   }
 }
 @media (max-width : 570px){
   .mainp3{
     margin-top: -15rem !important; 
-    margin-right: -.2rem !important;
+    margin-right: -.3rem !important;
+    width: 28% !important;
   }
 }
 @media (max-width : 400px){
   .mainp3{
-    margin-top: -13rem !important; 
-    margin-right: 1rem !important;
+    margin-top: -9.5rem !important; 
+    margin-right: -.7rem !important;
+    width: 35% !important;
   }
 }
 
+/* mainp1 */
+/* mainp1 */
 @media (min-width : 960px){
   .mainp1{
     display: none;
@@ -22566,11 +22587,23 @@ video{
       width: 8rem !important;
      }
   }
+  
   @media (max-width : 450px){
     .mainp1{
-      padding-top: 3rem !important;
-      padding-left: 11rem !important;
-      margin-top: 0 !important;
+      display: grid;
+      padding-top: 2rem !important;
+      /* padding-left: 2.5rem !important; */
+      padding-left: 8.5rem !important;
+      margin-top: -38rem !important;
+      grid-template-columns: repeat(2, 192px);
+     }
+  }
+  @media (max-width : 400px){
+    .mainp1{
+      /* padding-left: 1.3rem !important; */
+      padding-left: 6.3rem !important;
+      margin-top: -38.5rem !important;
+      /* text-align: center; */
      }
   }
 }
