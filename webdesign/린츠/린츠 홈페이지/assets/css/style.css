@@ -1095,7 +1095,7 @@ body.dark-theme {
         /* margin: 2rem 2rem; */
     }
     .testimonial__images {
-        padding-top: 10rem;
+        padding-top: 4rem;
     }
     .testimonial__img,
     .testimonial__square {
@@ -1177,8 +1177,8 @@ body.dark-theme {
     }
     .testimonial__img,
     .testimonial__square {
-        right: 6rem;
-        top: 4rem;
+        right: 4rem;
+        top: 1.5rem;
     }
 
     .products__container {
