@@ -983,6 +983,9 @@ section .coordi {
         padding-right: 0;
         height: 31rem;
     }
+    .swiper-wrapper {
+        height: 42rem !important;
+    }
     .home .content {
         padding-bottom: 20rem;
     }

@@ -15,7 +15,7 @@ body{
 /* header */
 
 header{
-    height: 150px;
+    height: 130px;
 }
 
 .title h1{
@@ -52,7 +52,6 @@ section{
 
 /* section web design */
 /* section mobile design */
-
 
 .design .web{
     overflow: scroll;
@@ -151,7 +150,7 @@ footer{
 .btn{
     width: 6rem;
     height: 3rem;
-    font-size: 1.2rem;
+    font-size: 1rem;
     list-style: none;
     background: #464646;
     border: 0;
