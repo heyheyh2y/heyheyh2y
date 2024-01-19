@@ -22507,7 +22507,7 @@ video{
 }
 @media (max-width : 570px){
   .mainp3{
-    margin-top: -15rem !important; 
+    margin-top: -9.5rem !important; 
     margin-right: -.3rem !important;
     width: 28% !important;
   }
@@ -22602,7 +22602,7 @@ video{
     .mainp1{
       padding-top: 2rem !important;
       padding-left: 8.5rem !important;
-      margin-top: -36.5rem !important;
+      margin-top: -41.5rem !important;
       width: 8rem !important;
 
      }
@@ -22611,13 +22611,13 @@ video{
     .mainp1{
       /* padding-left: 1.3rem !important; */
       padding-left: 6.3rem !important;
-      margin-top: -38.5rem !important;
+      margin-top: -42rem !important;
      }
   }
   @media (max-width : 330px){
     .mainp1{
       padding-left: 5rem !important;
-      margin-top: -39.5rem !important;
+      margin-top: -43.5rem !important;
      }
   }
 }
