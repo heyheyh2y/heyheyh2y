@@ -22598,12 +22598,20 @@ video{
       grid-template-columns: repeat(2, 192px);
      }
   }
+  @media (max-width : 435px){
+    .mainp1{
+      padding-top: 2rem !important;
+      padding-left: 8.5rem !important;
+      margin-top: -36.5rem !important;
+      width: 8rem !important;
+
+     }
+  }
   @media (max-width : 400px){
     .mainp1{
       /* padding-left: 1.3rem !important; */
       padding-left: 6.3rem !important;
       margin-top: -38.5rem !important;
-      width: 8rem !important;
      }
   }
   @media (max-width : 330px){
