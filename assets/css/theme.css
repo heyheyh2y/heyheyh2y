@@ -22590,34 +22590,27 @@ video{
   
   @media (max-width : 450px){
     .mainp1{
-      display: grid;
-      padding-top: 2rem !important;
-      /* padding-left: 2.5rem !important; */
-      padding-left: 8.5rem !important;
-      margin-top: -37rem !important;
-      grid-template-columns: repeat(2, 192px);
+      margin-top: -39rem !important;
+      padding: 0 5rem;
+      text-align: center
+     }
+     .mainp1 img{
+      text-align: center;
      }
   }
   @media (max-width : 435px){
     .mainp1{
-      padding-top: 2rem !important;
-      padding-left: 8.5rem !important;
       margin-top: -40rem !important;
-      width: 8rem !important;
-
      }
   }
   @media (max-width : 400px){
     .mainp1{
-      /* padding-left: 1.3rem !important; */
-      padding-left: 6.3rem !important;
-      margin-top: -41.5rem !important;
+      margin-top: -40.5rem !important;
      }
   }
   @media (max-width : 330px){
     .mainp1{
-      padding-left: 5rem !important;
-      margin-top: -43.5rem !important;
+      margin-top: -41.5rem !important;
      }
   }
 }
