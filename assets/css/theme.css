@@ -22590,7 +22590,7 @@ video{
   
   @media (max-width : 450px){
     .mainp1{
-      margin-top: -39rem !important;
+      margin-top: -38rem !important;
       padding: 0 5rem;
       text-align: center
      }
@@ -22600,17 +22600,17 @@ video{
   }
   @media (max-width : 435px){
     .mainp1{
-      margin-top: -40rem !important;
+      margin-top: -39rem !important;
      }
   }
   @media (max-width : 400px){
     .mainp1{
-      margin-top: -40.5rem !important;
+      margin-top: -39.5rem !important;
      }
   }
   @media (max-width : 330px){
     .mainp1{
-      margin-top: -41.5rem !important;
+      margin-top: -40.5rem !important;
      }
   }
 }
