@@ -682,3 +682,23 @@ table {
   ._icon{
     font-family: "Font Awesome 5 Brands";
   }
+
+
+@media (max-width: 991px) {
+    .testimonial-carousel .owl-nav {
+        position: absolute;
+        width: 600px;
+        top: 40%;
+        left: 50%;
+        transform: translateX(-50%);
+        display: flex;
+        justify-content: space-between;
+        opacity: 1;
+        transition: .5s;
+        z-index: 1;
+    }
+    .testimonial-carousel:hover .owl-nav {
+        width: 400px;
+        opacity: .5;
+    }
+}
