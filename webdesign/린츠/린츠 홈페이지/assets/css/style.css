@@ -542,8 +542,8 @@ body.dark-theme {
 
 .story__img {
     position: absolute;
-    left: -1rem;
-    top: -1rem;
+    left: 3rem;
+    top: -3rem;
 }
 
 
