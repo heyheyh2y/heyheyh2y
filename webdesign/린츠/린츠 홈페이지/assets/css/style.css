@@ -1135,6 +1135,9 @@ body.dark-theme {
     .products__button {
         margin: 3.7rem 0.6rem !important;
     }
+    .footer__container{
+        grid-template-columns: repeat(2, 200px);
+    }
     
 
 }
@@ -1193,6 +1196,9 @@ body.dark-theme {
     }
     .products__button {
         margin: 6.3rem 3.5rem;;
+    }
+    .footer__container{
+        grid-template-columns: repeat(2, 264px);
     }
 }
 /* 767~991 >>775*/
