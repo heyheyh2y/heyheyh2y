@@ -44,7 +44,7 @@
 /*** Button ***/
 .btn {
     font-weight: 500;
-    transition: .5s;
+    /* transition: .5s; */
 }
 
 .btn.btn-primary,
@@ -301,6 +301,7 @@
     position: relative;
     top: 0;
     transition: .5s;
+    width: 100% !important;
 }
 
 .team-item:hover img {
@@ -540,6 +541,13 @@
         padding-right: 15%;
     }
 }
+@media (max-width: 991px) {
+    .pd10{
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+}
+
 
 .bg-green{
     background-color: #d2e5b8;
@@ -611,7 +619,7 @@
 @media (max-width: 991px) {
     .testimonial-item img{
         width:600px; 
-        height: 250px;
+        /* height: 250px; */
     }
 }
 @media (min-width: 991px) {
