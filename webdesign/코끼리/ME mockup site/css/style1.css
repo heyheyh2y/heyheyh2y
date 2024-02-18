@@ -1,13 +1,15 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;200;300;400;500;600;700;800;900&family=Titillium+Web:wght@200;300;400;600;700;900&display=swap');
-
 
 *{
-    margin: 0; 
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Titillium Web', sans-serif;
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
 }
-
+.black-han sans-regular {
+   font-family: "Black Han Sans", sans-serif;
+   font-weight: 400;
+   font-style: normal;
+ }
+ 
 body{
     width: 1200px; 
     margin:auto;
@@ -17,18 +19,21 @@ body{
 
 header{
    height: 100px;
-   padding-top: 30px;
+   padding-top: 50px;
 }
 
 .title h1{
-    font-size: 3rem;
+    font-size: 2.7rem;
     text-align: center;
-    line-height: 3;
-    color: #8c8c8c;
+    line-height: 1;
+    color: #051b10;
+    font-family: "Black Han Sans", sans-serif;
+   font-weight: normal;
 }
 
 .title span{
-    color:  #ECA6AC;
+    color:  #0d462c;
+    font-size: 4.5rem;
 }
 
 /* section */
@@ -43,106 +48,7 @@ section{
     padding: 0 .5rem;
   }
 
-/* section design */
 
-.design{
-    padding-top: 4rem;
-}
-
-.design h1{
-    font-size: 3rem;
-    text-align: center;
-    line-height: 3;
-    color: #8c8c8c;
-}
-
-/* section web design */
-/* section mobile design */
-
-
-.design .web{
-    overflow: scroll;
-    border: solid 1px #fcc4c9;
-    height: 500px;
-    width: 1032px;
-    float: left;
-    margin: 1rem 5rem;
-}
-.design .mobile{
-    overflow: scroll;
-    border: solid 1px #fcc4c9;
-    height: 500px;
-    width: 650px;
-    float: left;
-    /* margin-left: 2rem; */
-}
-.design .mobile2{
-    overflow: scroll;
-    border: solid 1px #fcc4c9;
-    height: 500px;
-    width: 350px;
-    float: left;
-    margin-left: 2rem;
-}
-
-.design .mobile img,
-.design .mobile2 img,
-.design .web img{
-    width: 100%;
-    border-top: 1px solid #ECA6AC;
-}
-
-.design .web h3,
-.design .mobile h3,
-.design .mobile2 h3{
-    font-size: 1.3rem;
-    text-align: center;
-    padding: .2rem;
-    color: #ECA6AC;
-}
-.design .responsible{
-    margin: 0 5rem;
-}
-
-
-
-
-
-/* scrollbar */
-.web::-webkit-scrollbar{
-    width: 12px;
-}
-.web::-webkit-scrollbar-track{
-   background-color: #ffffff;
-   border-radius: 5px;
-}
-.web::-webkit-scrollbar-thumb{
-   background-color:#fcc4c9;
-   border-radius: 5px;
-}
-.mobile::-webkit-scrollbar{
-    width: 12px;
-}
-.mobile::-webkit-scrollbar-track{
-   background-color: #ffffff;
-   border-radius: 5px;
-}
-.mobile::-webkit-scrollbar-thumb{
-   background-color:#fcc4c9;
-   border-radius: 5px;
-}
-.mobile2::-webkit-scrollbar{
-    width: 12px;
-}
-.mobile2::-webkit-scrollbar-track{
-   background-color: #ffffff;
-   border-radius: 5px;
-}
-.mobile2::-webkit-scrollbar-thumb{
-   background-color:#fcc4c9;
-   border-radius: 5px;
-}
-   
 /* footer */
 footer{
     clear: both;
@@ -159,7 +65,7 @@ footer{
     height: 3rem;
     font-size: 1.5rem;
     list-style: none;
-    background: #ECA6AC;
+    background: #0d462c;
     border: 0;
 }
 
@@ -189,37 +95,7 @@ footer{
  .concept img{
    width: 100%;
  }
- .design{
-    width: 758px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    /* gap: 2rem; */
- }
 
-  .design h1{
-    font-size: 2rem;
-    text-align: center;
- }
-
- .design .web{
-    width: 650px;
-    height: 450px;
-    float: none;
- }
-
- .design .mobile{
-    height: 450px;
-    width: 350px;
-    margin-left: 0;
- }
- .design .mobile2{
-    height: 450px;
-    width: 270px;
- }
- .design .responsible{
-    margin: 0;
-}
 }
 
 
@@ -250,32 +126,7 @@ footer{
      .concept img{
        width: 100%;
      }
-     .design{
-        width: 350px;
-     }
-    
-      .design h1{
-        font-size: 2.5rem;
-        line-height: 2;
-     }
-    
-     .design .web{
-        width:350px;
-        height: 250px;
-     }
-     .design .mobile{
-        width:350px;
-        height: 450px;
-     }
-     .design .mobile2{
-        width:350px;
-        height: 500px;
-        margin-left: 0;
-        margin-top: 2rem
-     }
-     .design .responsible{
-        padding: 1rem;
-     }
+
      .footer{
         width: 350px;
         margin-left: 0;
